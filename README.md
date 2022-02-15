@@ -1,5 +1,29 @@
-# NHL Skaters
-## 2021-22 Season
+# NHL Skaters Data - 2021-22 Season
+
+## Usage
+
+### Get data into R:
+
+```R
+skaters <- readRDS(url('https://github.com/kim3-sudo/nhlskaters/blob/main/skaters.rda?raw=true'))
+```
+
+Data should now be loaded into an object called `skaters`.
+
+### Some starter code
+
+```R
+# EDA
+head(skaters)
+mean(skaters$age)
+median(skaters$age)
+# A boxplot, perschlaps?
+boxplot(skaters$age)
+boxplot(age ~ position, data = skaters)
+# Maybe an ANOVA?
+summary(aov(age ~ position, data = skaters))
+plot(aov(age ~ position, data = skaters))
+```
 
 ## Variable Descriptions
 
