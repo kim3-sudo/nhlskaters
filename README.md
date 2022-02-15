@@ -29,10 +29,10 @@ plot(aov(age ~ position, data = skaters))
 
 Right-click [here](https://github.com/kim3-sudo/nhlskaters/raw/main/skaters.csv) and Save Link As (give it a name like `skaters.csv`). Make sure you save it as a `.csv`, not a `.txt`, otherwise you're going to have a bad time.
 
+## K-SAS Challenge Description
+
+Click [here](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge.md) or view the `challenge.md` file.
+
 ## Variable Description
 
 Click [here](https://github.com/kim3-sudo/nhlskaters/blob/main/variables.md) or view the `variables.md` file.
-
-## Challenge Description
-
-Click [here](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge.md) or view the `challenge.md` file.
