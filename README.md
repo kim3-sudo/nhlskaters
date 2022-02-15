@@ -27,7 +27,7 @@ plot(aov(age ~ position, data = skaters))
 
 ### Get just a CSV
 
-Right-click [here](https://github.com/kim3-sudo/nhlskaters/raw/main/skaters.csv) and Save Link As (give it a name like `skaters.csv`).
+Right-click [here](https://github.com/kim3-sudo/nhlskaters/raw/main/skaters.csv) and Save Link As (give it a name like `skaters.csv`). Make sure you save it as a `.csv`, not a `.txt`, otherwise you're going to have a bad time.
 
 ## Variable Description
 
