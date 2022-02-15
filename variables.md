@@ -2,7 +2,7 @@
 
 ## Dataset Description
 
-This dataset contains player data from the 2021-22 season on all skaters in the NHL. 
+This dataset contains player data from the 2021-22 season on all skaters in the NHL. The dataset contains 943 observations over 62 variables. Each observation is one player.
 
 ## Variable Descriptions
 
