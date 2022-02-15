@@ -1,4 +1,9 @@
 # NHL Skaters Data - 2021-22 Season
+
+## Dataset Description
+
+This dataset contains player data from the 2021-22 season on all skaters in the NHL. 
+
 ## Variable Descriptions
 
 | Variable        | Variable Description |
