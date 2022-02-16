@@ -7,11 +7,21 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 ## Format
 
 - Participants will be given data in `.csv` form and `.rda` form. Both forms are identical.
-- Allowed platforms for coding are R (using RStudio), Python (using Spyder or Jupyter Notebooks, including Google Colab), SPSS, SAS, and Minitab.
-- The competition will be hosted asynchronously, and your final solution should be provided as a single script file uploaded to the specified submission link (link not provided yet).
-- All submissions must be made by the specified time (time not provided yet).
+- Allowed platforms for coding are R (using RStudio) or Python (in a Jupyter Notebook, including Google Colab).
+- The competition will be hosted asynchronously, and your final solution should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (you can submit an Rmd file) or using Jupyter Notebooks for Python developers (you can submit an IPYNB file). (link not provided yet)
+- All submissions must be made by the specified time. (date and time not provided yet)
 - Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis.
 - Plagiarism of any form will lead to immediate disqualification.
+
+## What should I include?
+
+- Any exploratory data analysis code that you ran
+- Any analysis code that you ran, including:
+  - Hypotheses
+  - Conditions checks for tests
+  - The tests or analyses themselves
+- Any code that you ran to get plots
+- A conclusion (in a comment)
 
 ## Fee
 
@@ -19,4 +29,4 @@ None
 
 ## Prize
 
-None (literally no stakes)
+None (there are literally no stakes)
