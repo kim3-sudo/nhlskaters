@@ -25,6 +25,22 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 
 We ***highly*** recommend that you clear your environment and run your code all the way through before submitting. This will help you avoid calling undefined objects, which is the source of most errors. Code, notebooks, or files that do not execute or render properly will be disqualified.
 
+You can use any packages that are available on CRAN (Comprehensive R Archive Network) or which can be delivered by PyPI (using `pip`) or Anaconda (using `conda`). Judges will not install any packages from GitHub, GitLab, or any library repository other than CRAN, PyPI, or Anaconda. You do not need to include `install_packages()` statements in R or `pip install <package>` statements in Python. Judges will install all applicable packages, assuming that they are being loaded into your script by means of a `library()` statement in R or `import` statement in Python.
+
+You may not submit any pre-compiled files, such as `.pyc` files. Your submission must be made in source code form. If compilation is required, it will be performed on the judge's machine.
+
+## Scoring Matrix
+
+How will I be scored?
+
+| Criteria                                                                                                                                                                                                 | Possible Points | Your Score |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------|
+| Your code executes with no errors.                                                                                                                                                                       | 5               |            |
+| Your code is well crafted and documented, including comments and whitespace. All warnings are explained.                                                                                                 | 10              |            |
+| The depth of analysis goes beyond the highest level of statistics or computer science coursework that you have completed. You have tried new things and learned something in the process.                | 10              |            |
+| Your analysis is statistically correct. You have checked all conditions and proven that they are met, used the correct methods for what you are trying to accomplish, and drawn the correct conclusions. | 20              |            |
+| **Total**                                                                                                                                                                                                | **50**          |            |
+
 ## Fee
 
 None
