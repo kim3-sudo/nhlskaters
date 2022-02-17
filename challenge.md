@@ -23,6 +23,8 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 - Any code that you ran to get plots
 - A conclusion
 
+We ***highly*** recommend that you clear your environment and run your code all the way through before submitting. This will help you avoid calling undefined objects, which is the source of most errors. Code, notebooks, or files that do not execute or render properly will be disqualified.
+
 ## Fee
 
 None
