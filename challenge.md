@@ -8,8 +8,8 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 
 - Participants will be given data in `.csv` form and `.rda` form. Both forms are identical.
 - Allowed platforms for coding are R (using RStudio) or Python (in a Jupyter Notebook, including Google Colab).
-- The competition will be hosted asynchronously, and your final solution should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (you can submit an Rmd file) or using Jupyter Notebooks for Python developers (you can submit an IPYNB file). (link not provided yet)
-- All submissions must be made by the specified time. (date and time not provided yet)
+- The competition will be hosted asynchronously, and your final solution should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (might we suggest submitting an Rmd file) or using Jupyter Notebooks for Python developers (might we suggest submitting an IPYNB file). Click [here](https://docs.google.com/forms/d/e/1FAIpQLSduM6TRbxYDQOGe29LVBHCYPcOlIgpSx_gZ7ph4lX_DO0F2bQ/viewform?usp=sf_link) to make your final submission.
+- All submissions must be made by 12:00 PM EST on March 22, 2022.
 - Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis.
 - Plagiarism of any form will lead to immediate disqualification.
 
@@ -21,7 +21,7 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
   - Conditions checks for tests
   - The tests or analyses themselves
 - Any code that you ran to get plots
-- A conclusion (in a comment)
+- A conclusion
 
 ## Fee
 
