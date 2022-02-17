@@ -48,3 +48,7 @@ None
 ## Prize
 
 None (there are literally no stakes)
+
+## Questions
+
+If you have questions about an analysis, please send an email to S Kim, J Katz, or B Hartlaub. If you have a submission issue, please send an email to S Kim. If you have a question about the data itself, please send an email to S Kim and J Katz.
