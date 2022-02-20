@@ -5,7 +5,7 @@
 ### Get data into R:
 
 ```R
-skaters <- readRDS(url('https://github.com/kim3-sudo/nhlskaters/blob/main/skaters.rda?raw=true'))
+skaters <- readRDS(url('https://github.com/kim3-sudo/nhlskaters/blob/main/data/skaters.rda?raw=true'))
 ```
 
 Data should now be loaded into an object called `skaters`.
@@ -27,11 +27,11 @@ plot(aov(age ~ position, data = skaters))
 
 ### Get just a CSV
 
-Right-click [here](https://github.com/kim3-sudo/nhlskaters/raw/main/skaters.csv) and Save Link As (give it a name like `skaters.csv`). Make sure you save it as a `.csv`, not a `.txt`, otherwise you're going to have a bad time.
+Right-click [here](https://github.com/kim3-sudo/nhlskaters/raw/main/data/skaters.csv) and Save Link As (give it a name like `skaters.csv`). Make sure you save it as a `.csv`, not a `.txt`, otherwise you're going to have a bad time.
 
 ## K-SAS Challenge Description
 
-Click [here](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge.md) or view the `challenge.md` file.
+Click [here](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge/challenge.md) or view the `challenge.md` file.
 
 ## Variable Description
 
