@@ -27,6 +27,13 @@ plot(aov(age ~ position, data = skaters))
 
 ### Get data into Python:
 
+#### Using Pandas and Pickled File (Preferred)
+
+```python
+import pandas as pd
+skaters = pd.read_pickle("https://github.com/kim3-sudo/nhlskaters/blob/main/data/skaters.pkl?raw=true")
+```
+
 #### Using Pandas
 
 ```python
