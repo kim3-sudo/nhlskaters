@@ -33,7 +33,7 @@ You can use any packages that are available on CRAN (Comprehensive R Archive Net
 
 You may not submit any pre-compiled files, such as `.pyc` files. Your submission must be made in source code form. If compilation is required, it will be performed on the judge's machine.
 
-As a resource, the competition organizers have provided you with a R and a R Markdown sample file to demonstrate how we expect you to annotate your code and what you should include. You are free to run/knit these files.
+As a resource, the competition organizers have provided you with a [R](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge/sample.R) and a [R Markdown](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge/sample.Rmd) sample file to demonstrate how we expect you to annotate your code and what you should include. You are free to run/knit these files.
 
 ## Scoring Matrix
 
