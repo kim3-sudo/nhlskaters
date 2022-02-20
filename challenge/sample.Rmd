@@ -1,0 +1,101 @@
+---
+title: "Example Script"
+author: "S Kim"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(mosaic)
+library(dplyr)
+```
+
+## Load Data and Libraries
+
+We first loaded the data and the libraries that we would need for the analysis. The data were provided by the competition organizers, and it represents 943 skaters in the 2021-2022 NHL. We also loaded the `mosaic` and `dplyr` packages.
+
+```{R libraries}
+skaters <- readRDS(url('https://github.com/kim3-sudo/nhlskaters/blob/main/data/skaters.rds?raw=true'))
+```
+```R
+library(mosaic)
+library(dplyr)
+```
+
+## Clean/Prep Data
+
+We want to clean our data before we analyze it, there are some weird observations that we don't want affecting our results. We can clean this data using the R code shown.
+
+```{R cleandata}
+skaters <- subset(skaters, playerid != 'nashri02')
+skaters <- subset(skaters, playerid != 'wolanch01')
+skaters <- subset(skaters, playerid != 'brookad01')
+```
+
+We also want to prepare a new column for high-scorers. In this case, we defined a "high scorer" to be any player that scored more than four points. The mean for goals is 4.7 and the median for goals is 3, so we thought that 4 was a good cutoff value.
+
+```{R findcutoffs}
+mean(skaters$goals)
+median(skaters$goals)
+```
+
+We then made a new variable called `morethanfour` that evaluated to `TRUE` if the player scored more than four goals and `FALSE` otherwise.
+
+```{R morethanfour}
+skaters$morethanfour <- ifelse(skaters$goals >= 4, TRUE, FALSE)
+```
+
+## Questions of Interest
+
+We divided our data into groups by those who scored more than 4 points and those who scored less than 4 points. For this study, we looked at defensive vs offensive players. We want to know whether the observed proportion of high scorers in the defensemen group is less than the observed proportion of high scorers in the offensivemen group. To do this, we will run a one-tailed $Z$-test.
+
+Our hypotheses for this $Z$-test are as follows.
+- $H_0$: $p_\text{defensemen} <= p_\text{offensemen}$
+- $H_A$: $p_\text{defensemen} < p_\text{offensemen}$
+
+## Exploratory Data Analysis
+
+In order to get a view of the data, we made some boxplots and looked at the summary statistics of the variables that we were interested in.
+
+```{R EDAplots}
+boxplot(goals ~ position, data = skaters)
+boxplot(goals ~ role, data = skaters)
+favstats(goals ~ position, data = skaters)
+favstats(goals ~ role, data = skaters)
+```
+
+We also got tallies for the proportions, which we will use in our $Z$-test.
+
+```{R proptally}
+tally(filter(skaters, role == "Def")$morethanfour)
+tally(filter(skaters, role == "Off")$morethanfour)
+tally(skaters$role)
+```
+
+## Conditions
+
+The conditions for the $Z$-test call for a large sample size, independence, normality, and randomization. Our sample size after trimming down the bad observations is 940, which we consider to be good, so this condition is met. For the independence condition, we believe that each player shouldn't affect each other too much, so this condition is met.
+
+In order to check normality, we made a normal QQ plot.
+
+```{R normalqq}
+qqnorm(skaters$goals)
+qqline(skaters$goals)
+```
+
+We find that the data points stray from what normal data should look like, but because our sample size is so large (at 940 observations), we are willing to overlook this.
+
+The only condition that we're not sure of is the randomization, and whether the randomization condition is met depends on what we want to evaluate. If we want to evaluate whether the conclusions we draw are representative of all ice hockey players in the United States and Canada, then this condition is not met, since our study only looks at the most elite of ice hockey players in the United States and Canada. However, among NHL players, we belive it to be well-representative of the population.
+
+## Z-test
+
+In order to run the $Z$-test, we used the `prop.test()` function in R. We specified the proportions of high scorers from our tallies above as a proportion to the $n$ value, or the number of samples in each group. That is, we have 69 high scorers out of 326 defensive players, and we have 341 high scorers out of 614 offensive players. Since we are running a one-sided $Z$-test, we also had to specify that we were using the equal to or less than alternative hypothesis using the `alternative` argument. Finally, we put the results into a variable called `results` and printed `results`.
+
+```{R ztest}
+results <- prop.test(x = c(69, 341), n = c(326, 614), alternative = "less")
+results
+```
+
+## Conclusion
+
+Based on a $p$-value of $0.00 < 0.05 = \alpha$, we reject the null hypothesis $H_0$ that the population proportion for high-scoring skaters is the same or lower for defensemen than it is for offensemen and instead conclude that the population proportion for high-scoring skaters is lower for defensemen than it is for offensemen. Our conclusion is that if you are playing hockey in the NHL and you want to be a high scorer, then you should be an offensive player!
