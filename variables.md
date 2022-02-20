@@ -8,7 +8,7 @@ This dataset contains player data from the 2021-22 season on all skaters in the 
 
 | Variable        | Variable Description |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| rank            | Rank                                                                                          |
+| `sid`             | Serial Identifier Number                                                                      |
 | player          | Player name                                                                                                                                                                                                                                                     |
 | playerid        | A unique player identification string                                                                                                                                                                                                                           |
 | age             | Player age                                                                                                                                                                                                                                                      |
@@ -70,3 +70,8 @@ This dataset contains player data from the 2021-22 season on all skaters in the 
 | fowin           | Faceoff wins                                                                                                                                                                                                                                                    |
 | foloss          | Faceoff losses                                                                                                                                                                                                                                                  |
 | fopct           | Faceoff win percentage                                                                                                                                                                                                                                          |
+
+## Important Notes
+
+- Some players play two positions (like PHI's Claude Giroux, who plays both center and left wing). In this case, their position has been encoded by whichever position they play more (in Giroux's case, center). This was done to aid in your analysis for data cleanliness purposes.
+- For players who have played on multiple teams within the season (like Kale Clague, who played for `LAK` and `MTL`), their team has been encoded by whatever their latest team was (in Clague's case, `MTL`). This is to aid in your analysis for data cleanliness purposes.
