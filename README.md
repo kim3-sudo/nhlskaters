@@ -47,7 +47,7 @@ Right-click [here](https://github.com/kim3-sudo/nhlskaters/raw/main/data/skaters
 
 ## K-SAS Challenge Description
 
-Click [here](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge/challenge.md) or view the `challenge.md` file.
+Click [here](https://github.com/kim3-sudo/nhlskaters/tree/main/challenge) or view the `challenge` directory and its README.
 
 ## Variable Description
 
