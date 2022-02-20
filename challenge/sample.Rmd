@@ -1,5 +1,6 @@
 ---
 title: "Example Script"
+subtitle: "2022 K-SAS Sports Analytics Competition"
 author: "S Kim"
 output: html_document
 ---
