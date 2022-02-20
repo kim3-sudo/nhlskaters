@@ -75,3 +75,21 @@ This dataset contains player data from the 2021-22 season on all skaters in the 
 
 - Some players play two positions (like PHI's Claude Giroux, who plays both center and left wing). In this case, their position has been encoded by whichever position they play more (in Giroux's case, center). This was done to aid in your analysis for data cleanliness purposes.
 - For players who have played on multiple teams within the season (like Kale Clague, who played for `LAK` and `MTL`), their team has been encoded by whatever their latest team was (in Clague's case, `MTL`). This is to aid in your analysis for data cleanliness purposes.
+- Riley Nash (`nashri02`) has played on three teams (`ARI`, `TBL`, and `WPG`); like others, he has been placed representing his current team.
+  - To remove Riley Nash (`nashri02`)'s observation from the data, use
+```R
+library(dplyr)
+skaters %>%
+  filter(playerid == 'nashri02')
+```
+- Christian Wolanin (`wolanch01`) and Adam Brooks (`brookad01`) are currently not on any team (as of time of writing). They have been placed representing their last team.
+  - To remove Christian Wolanin (`wolanch01`)'s and Adam Brooks (`brookad01`)'s observations from the data, use
+```R
+# dplyr required
+skaters %>%
+  filter(playerid == 'wolanch01')
+skaters %>%
+  filter(playerid == 'brookad01')
+## These two filters are run subsequently for clarity.
+## They could be stacked next to each other for brevity using the and operator.
+```
