@@ -5,7 +5,7 @@
 ### Get data into R:
 
 ```R
-skaters <- readRDS(url('https://github.com/kim3-sudo/nhlskaters/blob/main/data/skaters.rda?raw=true'))
+skaters <- readRDS(url('https://github.com/kim3-sudo/nhlskaters/blob/main/data/skaters.rds?raw=true'))
 ```
 
 Data should now be loaded into an object called `skaters`.
