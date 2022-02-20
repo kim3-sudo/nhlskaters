@@ -6,7 +6,7 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 
 ## Format
 
-- Participants will be given data in `.csv` form and `.rda` form. Both forms are identical.
+- Participants will be given data in `.csv` (plaintext comma-separated values), `.pki` (Python Pandas Pickle), and `.rds` (R dataset) form. Both forms are identical.
 - Allowed platforms for coding are R (using RStudio) or Python (in a Jupyter Notebook, including Google Colab).
 - The competition will be hosted asynchronously, and your final solution should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (might we suggest submitting an Rmd file) or using Jupyter Notebooks for Python developers (might we suggest submitting an IPYNB file). Click [here](https://docs.google.com/forms/d/e/1FAIpQLSduM6TRbxYDQOGe29LVBHCYPcOlIgpSx_gZ7ph4lX_DO0F2bQ/viewform?usp=sf_link) to make your final submission.
 - If you choose to submit a R Markdown file, your file should be of the `Rmd` extension. Do not submit a compiled PDF or HTML file. It will be compiled on the judge's machine. Your file output must be a PDF or HTML file. If it is neither, it will be changed to PDF. If your file does not knit properly when compiled as a PDF, it will be changed to HTML. If it still does not knit properly, your submission will be disqualified.
