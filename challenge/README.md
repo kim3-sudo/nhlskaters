@@ -66,6 +66,6 @@ After the competition period is over, anyone on a team who made a submission wil
 
 Additionally, according to a rank by rubric points, each member of the first place team will receive an additional $20 Wiggin Street Coffee gift card. Each member of the second place team will receive an additional $15 Wiggin Street Coffee gift card. Each member of the third place team will receive an additional $10 Wiggin Street Coffee gift card.
 
-## Questions
+## Support
 
-If you have questions about an analysis, please send an email to S Kim, J Katz, or B Hartlaub. If you have a submission issue, please send an email to S Kim. If you have a question about the data itself, please send an email to S Kim and J Katz.
+If you have questions about an analysis (or with R/Python/RStudio), please send an email to S Kim, J Katz, or B Hartlaub (or better yet, ask in #programming in Discord!). If you have an entry or submission issue, please send an email to S Kim. If you have a question about the data itself (like the form, encoding, or need help with a variable description), please send an email to S Kim and J Katz.
