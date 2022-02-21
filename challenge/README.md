@@ -2,7 +2,12 @@
 ## Kenyon Sports Analytics Society
 ## NHL Skaters Data - 2021-22 Season
 
-This event caters to Kenyon Sports Analytics Society members and should be accessible to all members, regardless of statistics experience. If you're not confident or you want some help, consider doing this as a pair project! We can't wait to see what you come up with! Remember, no stakes - we just want to see all the cool stuff that you come up with with this data!
+This event caters to the Kenyon College student community. If you are a student at Kenyon College, you are eligible to form a team and submit as part of this competition, regardless of sports analytics, computer science, or statistics experience.
+
+## Eligibility
+
+In order to be eligible, you must:
+- Be a current student at Kenyon College
 
 ## Entry
 
