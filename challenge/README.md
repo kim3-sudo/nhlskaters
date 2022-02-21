@@ -17,7 +17,7 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 
 ## What should I include?
 
-- Your name and anyone else on your team
+- Your team ID (do *not* include your names or email addresses!)
 - That this is for the 2022 K-SAS Sports Analytics Competition
 - Any exploratory data analysis code that you ran
 - Any analysis code that you ran, including:
