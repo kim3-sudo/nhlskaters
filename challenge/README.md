@@ -6,7 +6,9 @@ This event caters to Kenyon Sports Analytics Society members and should be acces
 
 ## Entry
 
-To enter in the contest, click [here](https://docs.google.com/forms/d/e/1FAIpQLSdkkYVjz9Lc_w2Pl6te_bWjBFrBXMZol7ND2G0byMOmA1FE6Q/viewform?usp=sf_link) to submit your team information and to get a team ID. You will receive a team ID, regardless of the size of your team or if you are competing independently.
+To enter in the contest, click [here](https://docs.google.com/forms/d/e/1FAIpQLSdkkYVjz9Lc_w2Pl6te_bWjBFrBXMZol7ND2G0byMOmA1FE6Q/viewform?usp=sf_link) to submit your team information and to get a team ID. You will receive a team ID regardless of the size of your team or if you are competing independently. You must request your team ID by 12:00 PM EST on March 21, 2022.
+
+There is no entry fee.
 
 ## Format
 
@@ -17,6 +19,7 @@ To enter in the contest, click [here](https://docs.google.com/forms/d/e/1FAIpQLS
 - If you choose to submit a R Markdown file, your file should be of the `Rmd` extension. Do not submit a compiled PDF or HTML file. It will be compiled on the judge's machine. Your file output must be a PDF or HTML file. If it is neither, it will be changed to PDF. If your file does not knit properly when compiled as a PDF, it will be changed to HTML. If it still does not knit properly, your submission will be disqualified.
 - If you choose to submit a Jupyter Notebook, it will be run in untrusted mode. This means that you should use the `requests` or `pandas` library to get the data using the CSV, rather than reading the file from your local filesystem.
 - All submissions must be made by 12:00 PM EST on March 22, 2022.
+- For prize information, see the [**Prize**](https://github.com/kim3-sudo/nhlskaters/tree/main/challenge#prize) section below.
 - Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis. We'd love to see all sorts of analyses, all the way from one-way Z-tests to machine learning.
 - Plagiarism of any form will lead to immediate disqualification.
 
@@ -52,13 +55,11 @@ How will I be scored?
 | Your analysis is statistically correct. You have checked all conditions and proven that they are met, used the correct methods for what you are trying to accomplish, and drawn the correct conclusions. | 20              |            |
 | **Total**                                                                                                                                                                                                | **50**          |            |
 
-## Fee
-
-None
-
 ## Prize
 
-None (there are literally no stakes)
+After the competition period is over, anyone on a team who made a submission will receive a $5 Wiggin Street Coffee gift card. In order to be eligible, you must have been on a team with a valid team ID as a listed member.
+
+Additionally, according to a rank by rubric points, each member of the first place team will receive an additional $20 Wiggin Street Coffee gift card. Each member of the second place team will receive an additional $15 Wiggin Street Coffee gift card. Each member of the third place team will receive an additional $10 Wiggin Street Coffee gift card.
 
 ## Questions
 
