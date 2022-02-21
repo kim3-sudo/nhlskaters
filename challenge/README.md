@@ -4,8 +4,13 @@
 
 This event caters to Kenyon Sports Analytics Society members and should be accessible to all members, regardless of statistics experience. If you're not confident or you want some help, consider doing this as a pair project! We can't wait to see what you come up with! Remember, no stakes - we just want to see all the cool stuff that you come up with with this data!
 
+## Entry
+
+To enter in the contest, click [here](https://docs.google.com/forms/d/e/1FAIpQLSdkkYVjz9Lc_w2Pl6te_bWjBFrBXMZol7ND2G0byMOmA1FE6Q/viewform?usp=sf_link) to submit your team information and to get a team ID. You will receive a team ID, regardless of the size of your team or if you are competing independently.
+
 ## Format
 
+- Teams can be as small as one person and as large as four people.
 - Participants will be given data in `.csv` (plaintext comma-separated values), `.pki` (Python Pandas Pickle), and `.rds` (R dataset) form. Both forms are identical.
 - Allowed platforms for coding are R (using RStudio) or Python (in a Jupyter Notebook, including Google Colab).
 - The competition will be hosted asynchronously, and your final solution should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (might we suggest submitting an Rmd file) or using Jupyter Notebooks for Python developers (might we suggest submitting an IPYNB file). Click [here](https://docs.google.com/forms/d/e/1FAIpQLSduM6TRbxYDQOGe29LVBHCYPcOlIgpSx_gZ7ph4lX_DO0F2bQ/viewform?usp=sf_link) to make your final submission.
