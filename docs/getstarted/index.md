@@ -1,3 +1,7 @@
+---
+permalink: /getstarted/
+---
+
 # NHL Skaters Data - 2021-22 Season
 
 ## Basic Dataset Usage
