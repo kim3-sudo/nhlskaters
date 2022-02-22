@@ -18,20 +18,16 @@ There is no entry fee.
 ## Format
 
 - Teams can be as small as one person and as large as four people.
-- Participants will be given data in `.csv` (plaintext comma-separated values), `.pki` (Python Pandas Pickle), and `.rds` (R dataset) form. Both forms are identical.
+- Participants will be given data in `.csv` (plaintext comma-separated values), `.pki` (Python Pandas Pickle), and `.rds` (R dataset) form. All forms are identical.
 - Allowed platforms for coding are R (using RStudio) or Python (in a Jupyter Notebook, including Google Colab).
-- The competition will be hosted asynchronously, and your final solution should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (might we suggest submitting an Rmd file) or using Jupyter Notebooks for Python developers (might we suggest submitting an IPYNB file). Click [here](https://docs.google.com/forms/d/e/1FAIpQLSduM6TRbxYDQOGe29LVBHCYPcOlIgpSx_gZ7ph4lX_DO0F2bQ/viewform?usp=sf_link) to make your final submission.
-- If you choose to submit a R Markdown file, your file should be of the `Rmd` extension. Do not submit a compiled PDF or HTML file. It will be compiled on the judge's machine. Your file output must be a PDF or HTML file. If it is neither, it will be changed to PDF. If your file does not knit properly when compiled as a PDF, it will be changed to HTML. If it still does not knit properly, your submission will be disqualified.
-- If you choose to submit a Jupyter Notebook, it will be run in untrusted mode. This means that you should use the `requests` or `pandas` library to get the data using the CSV, rather than reading the file from your local filesystem.
+- The competition will be hosted asynchronously, and your final submission should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (might we suggest submitting an Rmd file) or using Jupyter Notebooks for Python developers (might we suggest submitting an IPYNB file). Click [here](https://docs.google.com/forms/d/e/1FAIpQLSduM6TRbxYDQOGe29LVBHCYPcOlIgpSx_gZ7ph4lX_DO0F2bQ/viewform?usp=sf_link) to make your final submission.
 - All submissions must be made by 12:00 PM EST on March 22, 2022.
-- For prize information, see the **Prize** section below.
-- Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis. We'd love to see all sorts of analyses, all the way from one-way Z-tests to machine learning.
+- Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis. We'd love to see all sorts of analyses!
 - Plagiarism of any form will lead to immediate disqualification.
 
 ## What should I include?
 
 - Your team ID (do *not* include your names or email addresses!)
-- That this is for the 2022 K-SAS Sports Analytics Competition
 - Any exploratory data analysis code that you ran
 - Any analysis code that you ran, including:
   - Hypotheses
@@ -44,21 +40,11 @@ We ***highly*** recommend that you clear your environment and run your code all 
 
 You can use any packages that are available on CRAN (Comprehensive R Archive Network) or which can be delivered by PyPI (using `pip`) or Anaconda (using `conda`). Judges will not install any packages from GitHub, GitLab, or any library repository other than CRAN, PyPI, or Anaconda. You do not need to include `install_packages()` statements in R or `pip install <package>` statements in Python. Judges will install all applicable packages, assuming that they are being loaded into your script by means of a `library()` statement in R or `import` statement in Python.
 
-You may not submit any pre-compiled files, such as `.pyc` files. Your submission must be made in source code form. If compilation is required, it will be performed on the judge's machine.
+You may not submit any pre-compiled files, such as `.pyc` files, for security reasons. Your submission must be made in source code form. If compilation is required, it will be performed on the judge's machine. If you choose to submit a R Markdown file, please submit your `Rmd` file, instead of a compiled PDF or HTML file. It will be compiled on the judge's machine. Your file output must be a PDF or HTML file. If it is neither, it will be changed to PDF. If your file does not knit properly when compiled as a PDF, it will be changed to HTML. If it still does not knit properly, your submission will be disqualified. If you choose to submit a Jupyter Notebook, it will be run in untrusted mode (again, for security reasons). This means that you should use the `requests` or `pandas` library to get the data using the CSV, rather than reading the file from your local filesystem.
+
+Confused? We're happy to answer any questions that you might have!
 
 As a resource, the competition organizers have provided you with a [R](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge/sample.R) and a [R Markdown](https://github.com/kim3-sudo/nhlskaters/blob/main/challenge/sample.Rmd) sample file to demonstrate how we expect you to annotate your code and what you should include. You are free to run/knit these files.
-
-## Scoring Matrix
-
-How will I be scored?
-
-| Criteria                                                                                                                                                                                                 | Possible Points | Your Score |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------|
-| Your code executes with no errors.                                                                                                                                                                       | 5               |            |
-| Your code is well crafted and documented, including comments and whitespace. All warnings are explained.                                                                                                 | 5               |            |
-| The depth of analysis goes beyond the highest level of statistics or computer science coursework that you have completed. You have tried new things and learned something in the process.                | 10              |            |
-| Your analysis is statistically correct. You have checked all conditions and proven that they are met, used the correct methods for what you are trying to accomplish, and drawn the correct conclusions. | 20              |            |
-| **Total**                                                                                                                                                                                                | **50**          |            |
 
 ## Prize
 
