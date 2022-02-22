@@ -2,6 +2,11 @@
 permalink: /variables/
 ---
 
+<script type="text/javascript" charset="utf-8" src="
+https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+</head>
+
 ## Dataset Description
 
 This dataset contains player data from the 2021-22 season on all skaters in the NHL. The dataset contains 943 observations over 62 variables. Each observation is one player.
@@ -19,11 +24,11 @@ This dataset contains player data from the 2021-22 season on all skaters in the 
 | `gamesplayed`     | Number of games played                                                                                                                                                                                                                                          |
 | `cf`              | Corsi for at even strength (shots + blocks + misses)                                                                                                                                                                                                            |
 | `ca`              | Corsi against at even strength (shots + blocks + misses)                                                                                                                                                                                                        |
-| `cfpct`           | Corsi for % at even strength (CF/(CF + CA))  above 50% means the team was controlling the puck more often than not with this player on the ice in this situation                                                                                                |
+| `cfpct`           | Corsi for % at even strength ($\text{CF}/(\text{CF} + \text{CA})$)  above 50% means the team was controlling the puck more often than not with this player on the ice in this situation                                                                                                |
 | `cfpctrel`        | Relative Corsi for percentage at even strength (on-ice Corsi for percentage - off-ice Corsi for percentage)                                                                                                                                                     |
 | `ff`              | Fenwick for at even strength (shots + misses)                                                                                                                                                                                                                   |
 | `fa`              | Fenwick against at even strength (shots + misses)                                                                                                                                                                                                               |
-| `ffpct`           | Fenwick for percentage at even strength (FF/(FF + FA)) - see corsiforpct                                                                                                                                                                                        |
+| `ffpct`           | Fenwick for percentage at even strength ($\text{FF}/(\text{FF} + \text{FA})$) - see corsiforpct                                                                                                                                                                                        |
 | `ffpctrel`        | Relative Fenwick for percentage (on-ice Fenwick for percentage - off-ice Fenwick for percentage)                                                                                                                                                                |
 | `toishootpct`     | Team on-ice shooting percentage, shooting percentage while this player was on the ice                                                                                                                                                                           |
 | `toisavepct`      | Team on-ice save percentage, saving percentage while this player was on the ice                                                                                                                                                                                 |
