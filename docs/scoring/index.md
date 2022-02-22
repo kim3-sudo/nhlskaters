@@ -4,7 +4,7 @@ permalink: /scoring/
 
 ## Scoring Matrix
 
-How will I be scored?
+This scoring matrix is provided to you as a guide for what you might want to include in your final submission. If you have any questions, please reach out to the competition organizers!
 
 | Criteria                                                                                                                                                                                                 | Possible Points | Your Score |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------|
