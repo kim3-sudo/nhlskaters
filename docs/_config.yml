@@ -1,4 +1,4 @@
-remote_theme: pages-themes/hacker
+remote_theme: pages-themes/cayman
 plugins:
 - jekyll-remote-theme
 title: Sports Analytics Challenge - Spring 2022
