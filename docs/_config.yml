@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Sports Analytics Challenge - Spring 2022
 description: Kenyon Sports Analytics Society - NHL Skaters Data - 2021-22 Season
+baseurl: /nhlskaters
