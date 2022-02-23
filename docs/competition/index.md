@@ -22,7 +22,12 @@ There is no entry fee.
 - Allowed platforms for coding are R (using RStudio) or Python (in a Jupyter Notebook, including Google Colab).
 - The competition will be hosted asynchronously, and your final submission should be provided as a single annotated file uploaded to the specified submission link. We recommend using R Markdown for R developers (might we suggest submitting an Rmd file) or using Jupyter Notebooks for Python developers (might we suggest submitting an IPYNB file). Click [here](https://docs.google.com/forms/d/e/1FAIpQLSduM6TRbxYDQOGe29LVBHCYPcOlIgpSx_gZ7ph4lX_DO0F2bQ/viewform?usp=sf_link) to make your final submission.
 - All submissions must be made by 12:00 PM EST on March 22, 2022.
-- Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis. We'd love to see all sorts of analyses!
+- Participants are expected to do exploratory data analysis on the data, but beyond this, there are no expectations to the depth or breadth of analysis. We'd love to see all sorts of analyses! For example:
+  - Wilcoxon/Mann-Whitney rank sum test or T-test for differences in means/medians for goals scored by conference/position/division
+  - Z-test for differences in proportions for high/low scorers by role
+  - ANOVA/Kruskal-Wallis in points between teams, ice time between teams
+  - General linear regression that a player gets *X* ice time given number of goals (maybe do a multiple linear regression?)
+  - Anything else you can think of!
 - Plagiarism of any form will lead to immediate disqualification.
 
 ## What should I include?
